@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named common
+
+# Build rule for target.
+common: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 common
+.PHONY : common
+
+# fast build rule for target.
+common/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/build
+.PHONY : common/fast
+
+#=============================================================================
 # Target rules for targets named planning_main
 
 # Build rule for target.
@@ -152,53 +165,53 @@ planning_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\planning_main.dir\build.make CMakeFiles/planning_main.dir/planning_main.cpp.s
 .PHONY : planning_main.cpp.s
 
-pnc_map.obj: pnc_map.cpp.obj
-.PHONY : pnc_map.obj
+src/pnc_map.obj: src/pnc_map.cpp.obj
+.PHONY : src/pnc_map.obj
 
 # target to build an object file
-pnc_map.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\planning_main.dir\build.make CMakeFiles/planning_main.dir/pnc_map.cpp.obj
-.PHONY : pnc_map.cpp.obj
+src/pnc_map.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/src/pnc_map.cpp.obj
+.PHONY : src/pnc_map.cpp.obj
 
-pnc_map.i: pnc_map.cpp.i
-.PHONY : pnc_map.i
+src/pnc_map.i: src/pnc_map.cpp.i
+.PHONY : src/pnc_map.i
 
 # target to preprocess a source file
-pnc_map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\planning_main.dir\build.make CMakeFiles/planning_main.dir/pnc_map.cpp.i
-.PHONY : pnc_map.cpp.i
+src/pnc_map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/src/pnc_map.cpp.i
+.PHONY : src/pnc_map.cpp.i
 
-pnc_map.s: pnc_map.cpp.s
-.PHONY : pnc_map.s
+src/pnc_map.s: src/pnc_map.cpp.s
+.PHONY : src/pnc_map.s
 
 # target to generate assembly for a file
-pnc_map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\planning_main.dir\build.make CMakeFiles/planning_main.dir/pnc_map.cpp.s
-.PHONY : pnc_map.cpp.s
+src/pnc_map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/src/pnc_map.cpp.s
+.PHONY : src/pnc_map.cpp.s
 
-process.obj: process.cpp.obj
-.PHONY : process.obj
+src/process.obj: src/process.cpp.obj
+.PHONY : src/process.obj
 
 # target to build an object file
-process.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\planning_main.dir\build.make CMakeFiles/planning_main.dir/process.cpp.obj
-.PHONY : process.cpp.obj
+src/process.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/src/process.cpp.obj
+.PHONY : src/process.cpp.obj
 
-process.i: process.cpp.i
-.PHONY : process.i
+src/process.i: src/process.cpp.i
+.PHONY : src/process.i
 
 # target to preprocess a source file
-process.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\planning_main.dir\build.make CMakeFiles/planning_main.dir/process.cpp.i
-.PHONY : process.cpp.i
+src/process.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/src/process.cpp.i
+.PHONY : src/process.cpp.i
 
-process.s: process.cpp.s
-.PHONY : process.s
+src/process.s: src/process.cpp.s
+.PHONY : src/process.s
 
 # target to generate assembly for a file
-process.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\planning_main.dir\build.make CMakeFiles/planning_main.dir/process.cpp.s
-.PHONY : process.cpp.s
+src/process.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/src/process.cpp.s
+.PHONY : src/process.cpp.s
 
 # Help Target
 help:
@@ -208,16 +221,17 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... common
 	@echo ... planning_main
 	@echo ... planning_main.obj
 	@echo ... planning_main.i
 	@echo ... planning_main.s
-	@echo ... pnc_map.obj
-	@echo ... pnc_map.i
-	@echo ... pnc_map.s
-	@echo ... process.obj
-	@echo ... process.i
-	@echo ... process.s
+	@echo ... src/pnc_map.obj
+	@echo ... src/pnc_map.i
+	@echo ... src/pnc_map.s
+	@echo ... src/process.obj
+	@echo ... src/process.i
+	@echo ... src/process.s
 .PHONY : help
 
 

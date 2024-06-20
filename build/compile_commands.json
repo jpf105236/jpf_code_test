@@ -1,20 +1,20 @@
 [
 {
   "directory": "D:/00Work/06Coding/01test/jpf_code_test/build",
-  "command": "\"D:\\Users\\uids0751\\AppData\\Local\\Programs\\Microsoft VS Code\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c D:\\00Work\\06Coding\\01test\\jpf_code_test\\planning_main.cpp",
+  "command": "\"D:\\Users\\uids0751\\AppData\\Local\\Programs\\Microsoft VS Code\\mingw64\\bin\\g++.exe\" -Dcommon_EXPORTS @CMakeFiles/common.dir/includes_CXX.rsp -g -o CMakeFiles\\common.dir\\src\\pnc_map.cpp.obj -c D:\\00Work\\06Coding\\01test\\jpf_code_test\\src\\pnc_map.cpp",
+  "file": "D:/00Work/06Coding/01test/jpf_code_test/src/pnc_map.cpp",
+  "output": "CMakeFiles/common.dir/src/pnc_map.cpp.obj"
+},
+{
+  "directory": "D:/00Work/06Coding/01test/jpf_code_test/build",
+  "command": "\"D:\\Users\\uids0751\\AppData\\Local\\Programs\\Microsoft VS Code\\mingw64\\bin\\g++.exe\" -Dcommon_EXPORTS @CMakeFiles/common.dir/includes_CXX.rsp -g -o CMakeFiles\\common.dir\\src\\process.cpp.obj -c D:\\00Work\\06Coding\\01test\\jpf_code_test\\src\\process.cpp",
+  "file": "D:/00Work/06Coding/01test/jpf_code_test/src/process.cpp",
+  "output": "CMakeFiles/common.dir/src/process.cpp.obj"
+},
+{
+  "directory": "D:/00Work/06Coding/01test/jpf_code_test/build",
+  "command": "\"D:\\Users\\uids0751\\AppData\\Local\\Programs\\Microsoft VS Code\\mingw64\\bin\\g++.exe\"  @CMakeFiles/planning_main.dir/includes_CXX.rsp -g -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c D:\\00Work\\06Coding\\01test\\jpf_code_test\\planning_main.cpp",
   "file": "D:/00Work/06Coding/01test/jpf_code_test/planning_main.cpp",
   "output": "CMakeFiles/planning_main.dir/planning_main.cpp.obj"
-},
-{
-  "directory": "D:/00Work/06Coding/01test/jpf_code_test/build",
-  "command": "\"D:\\Users\\uids0751\\AppData\\Local\\Programs\\Microsoft VS Code\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\planning_main.dir\\pnc_map.cpp.obj -c D:\\00Work\\06Coding\\01test\\jpf_code_test\\pnc_map.cpp",
-  "file": "D:/00Work/06Coding/01test/jpf_code_test/pnc_map.cpp",
-  "output": "CMakeFiles/planning_main.dir/pnc_map.cpp.obj"
-},
-{
-  "directory": "D:/00Work/06Coding/01test/jpf_code_test/build",
-  "command": "\"D:\\Users\\uids0751\\AppData\\Local\\Programs\\Microsoft VS Code\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\planning_main.dir\\process.cpp.obj -c D:\\00Work\\06Coding\\01test\\jpf_code_test\\process.cpp",
-  "file": "D:/00Work/06Coding/01test/jpf_code_test/process.cpp",
-  "output": "CMakeFiles/planning_main.dir/process.cpp.obj"
 }
 ]
