@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2021a http://schema.mathworks.com/mf0/slexec_mm_sto/R2021a_202007071525">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="7d7708d7-b52d-4d52-b0e4-59442957d88b">
+    <autoSolverStatusFlags>323</autoSolverStatusFlags>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="fde85ffb-0c48-4e23-9925-35a5aa7ce030">
+      <modelName>AEBS_TOS</modelName>
+      <modelPath>AEBS_TOS</modelPath>
+    </childModelRefInfo>
+    <dataDictionary>Objsel_Data.sldd</dataDictionary>
+    <dataDictionarySet>Objsel_Data.sldd</dataDictionarySet>
+    <dataDictionarySetForDataTypeCheck>Objsel_Data.sldd</dataDictionarySetForDataTypeCheck>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fundamentalSampleTimePeriod>.02</fundamentalSampleTimePeriod>
+    <globalVariables>#ACC_Infout#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#EdgeData_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#EdgeSeg_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Extension_input_Bus#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#LaneAttrSeg_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#LaneData_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#LaneSeg_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#LineAttrSeg_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#LineData_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#LineSeg_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_Boudingbox_Calculate#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ID_Long#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_Index_Left_Obj#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_Index_Right_Obj#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_LongTTI#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjAx#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjAxabs#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjAy#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjAyabs#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjCoef#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjConfidence#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjDx#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjDxStd#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjDy#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjDyStd#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjHeadAngle#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjID#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjLength#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjOrientation#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjSortNum_Long#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjState#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjType#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjVx#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjVxStd#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjVxabs#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjVy#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjVyStd#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjVyabs#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_ObjWidth#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_TTCLong#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_Utility#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_WeightCoef_1#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Meas_WeightCoef_2#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#ObjLong_Bus#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#ObjSelect_CalELKInvalidObjID#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#ObjSelect_CalFVSREgoSpdStandstill#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#ObjSelect_EPSILON#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#ObjectELK_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Object_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Objects_Struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Objrebuild_Bus#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_DM_DrvCrvtCalcWeightFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_DM_DrvVLgtForCrvtTable#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_DM_LoPosValInDrvrStEstimr#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_DM_VehSelfMinSpdInDrvrStEstimr#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_AccTarCfmDlyEnadInTaSlection#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_AccTarCfmDlyInTaSlection#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_CallFrequencyInTaSlection#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_MotionDataLowPassFilter#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjAccCalculateCalebration#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjAddAttrCalValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjAxLowPassFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjAyLowPassFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjBehaviorLatStationPara#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjBehaviorOnComingPara#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjDistancebyVxandDxFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjDistancebyVyandDyFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjDxLowPassFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjDxRateVarianceThredValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjDxSTDThredValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjDyLowPassFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjDyRateVarianceThredValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjDySTDThredValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjHeadAngleDiffThred#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjHeadAngleLowPassFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjHeadAngleSTDThredValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjMotorVehSpdThd#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjPedestrainSpdThd#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjSpeedxbyVxandDxFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjSpeedybyVyandDyFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjTruckLengthPara#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjVxLowPassFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjVxSTDThredValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjVxVarianceThredValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjVyLowPassFactor#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjVySTDThredValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjVyVarianceThredValue#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjdxRangetheMax#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjdxRangetheMin#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjdyRangetheMax#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_ObjdyRangetheMin#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PinionAgRateFilConInAsyEvlrCritEve#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForLaneWidthThred#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForLatObjLatSpdThred#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForMotorSpdThred#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForObjDisThrd#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForObjSpdStationary#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForOverlapCalSelect#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForOverlapLongThrd#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForTTCalDistanceOffset#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehBicycleMdlAxleDistFrnt#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehBicycleMdlCornrgStfnFrnt#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehBicycleMdlCornrgStfnRe#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehLongth#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehRearAxleDisttoFrnt#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehRearAxleDisttoRear#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehSpdStationary#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehSteerWhlAgRat#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehWhlBase#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehWholeWeight#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_PrmForVehWidth#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_SftyArUpprLimForTi#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_TTILowerLimitNegative#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_TTIUpperLimiPositive#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_TTIValidNumber#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_TiLowrLimInAsyEvlrCritEve#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_TiUpprLimInAsyEvlrCritEve#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#P_TA_TimegapThred#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#PahEstimn#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#Road_struct#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#TA_ObjInfo#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#TA_ObjProInfo#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#bool_t#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#int64_t#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#objLat_Bus#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#uint16_t#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#uint32_t#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#uint64_t#Objsel_Data.sldd#</globalVariables>
+    <globalVariables>#uint8_t#Objsel_Data.sldd#</globalVariables>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasBwsAccessedByAnyModel>true</hasBwsAccessedByAnyModel>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <hasStateInsideForEachSubsystem>true</hasStateInsideForEachSubsystem>
+    <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="30d7a323-1397-4e34-affb-6a9771c9ce49">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="5a50d183-1078-4cf4-a4af-8a4aff6afa1f"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="b9201d06-64de-4296-8e23-7444d160fa8a"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="de29c550-e787-4d87-b0f6-3af413514f5d">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>1</originalPortNumber>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="bb2080c3-46d4-4469-a1b4-b9f94eb9f137"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="b9f87a32-931a-4e2e-bb34-d87357a7ad17"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="ad5adf31-60f4-4bc6-bdad-26c6cc86dce2">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>2</originalPortNumber>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="4db54ec9-6d24-4c3b-8ff1-e33c9d7364d6"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="ad622ef1-eff5-42ba-86e1-614be9c297bd"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="15ac445c-78ee-4d01-bebb-4d8aaee2d452">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>3</originalPortNumber>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="03eb4f51-479e-45ec-81c0-b72ab5331a5c"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="020be05b-3046-48ef-b333-6ddfbcad6d15"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="e83cd1df-65cb-441b-a932-4b7e2df86a59">
+      <isNotDerivPort>true</isNotDerivPort>
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>4</originalPortNumber>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="7585f7e0-ed74-4077-8b53-23cc692f3a7c"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="44150f70-ecc2-40e7-8b07-d2b5b47c7c18"/>
+    </inports>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigOutportVirtualBus>false</isOrigOutportVirtualBus>
+    <isOrigOutportVirtualBus>false</isOrigOutportVirtualBus>
+    <isOrigOutportVirtualBus>false</isOrigOutportVirtualBus>
+    <isOrigOutportVirtualBus>false</isOrigOutportVirtualBus>
+    <isOrigOutportVirtualBus>false</isOrigOutportVirtualBus>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <numDStateRecs>100</numDStateRecs>
+    <numDataInputPorts>5</numDataInputPorts>
+    <numLoggableDStateRecs>38</numLoggableDStateRecs>
+    <numLoggableJacobianDStates>20</numLoggableJacobianDStates>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origOutportBusOutputAsStruct>false</origOutportBusOutputAsStruct>
+    <origOutportBusOutputAsStruct>false</origOutportBusOutputAsStruct>
+    <origOutportBusOutputAsStruct>false</origOutportBusOutputAsStruct>
+    <origOutportBusOutputAsStruct>false</origOutportBusOutputAsStruct>
+    <origOutportBusOutputAsStruct>true</origOutportBusOutputAsStruct>
+    <origOutportBusType>ObjLong_Bus</origOutportBusType>
+    <origOutportBusType>objLat_Bus</origOutportBusType>
+    <origOutportBusType></origOutportBusType>
+    <origOutportBusType>Objrebuild_Bus</origOutportBusType>
+    <origOutportBusType>ObjectELK_Struct</origOutportBusType>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="e078f651-8caa-4c0f-a3c4-e65a3cb7b228">
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSAROutportInfo" uuid="514c8d92-464a-4029-acf4-d81b6dff8bed"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="d2dd0d34-4e69-408f-85d6-d5e08d08f2b4"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="b605b176-1e2d-42c3-b05e-0f93f84f738a">
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <originalPortNumber>1</originalPortNumber>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSAROutportInfo" uuid="4c8f5c2a-0332-4ae2-9751-504d744ebeb6"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="6e99eb37-5bc8-4568-98e9-1a7f3115600b"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="256c2733-6fd3-4ef4-a522-2543ab8e99a5">
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <originalPortNumber>2</originalPortNumber>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSAROutportInfo" uuid="df64a530-5352-4e37-9137-9607ab17faa4"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="2d7d14a4-db0b-4128-a429-b61d88e0c581"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="2105a6ce-1e5d-4ade-a2cc-28ffafd5b9ef">
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <originalPortNumber>3</originalPortNumber>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSAROutportInfo" uuid="f250bf69-9657-47ec-9237-dae6943c50e5"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="b56010e0-1d8f-4a55-b4cc-dec7b3ff393a"/>
+    </outports>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="862103c9-8d03-4f44-88d3-7772a58e9252">
+      <designMax>Inf</designMax>
+      <designMin>-Inf</designMin>
+      <originalPortNumber>4</originalPortNumber>
+      <rateInfo type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.02</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfo>
+      <resolvedSignalObject></resolvedSignalObject>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSAROutportInfo" uuid="9c5eecf2-8d26-4753-85a7-da93bd3921e8"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="8da031bd-30d3-4b0b-ac78-b4a680b49b52"/>
+    </outports>
+    <removeResetFunc>true</removeResetFunc>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>.02</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2021a_202007071525&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;2374e12a-ec4b-490f-999b-dbae19b4df6a&quot;&gt;
+    &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;db0c47d1-48e3-4f45-9413-491cca477bac&quot;&gt;
+      &lt;computedFundamentalDiscretePeriod&gt;.02&lt;/computedFundamentalDiscretePeriod&gt;
+      &lt;resolution&gt;.02&lt;/resolution&gt;
+      &lt;clockTickConstraint&gt;PeriodicWithFixedResolution&lt;/clockTickConstraint&gt;
+      &lt;specifiedTaskingMode&gt;ClassicMultiTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;1c6f6f95-13da-4148-80a8-19ebe031da46&quot;&gt;
+        &lt;baseTaskID&gt;_task0&lt;/baseTaskID&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;c58f1194-ad65-4042-9e11-d3d69d1ab700&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;48e6ec7b-55f9-4874-bec9-6c9c687d5c12&quot;&gt;
+          &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+          &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;c58f1194-ad65-4042-9e11-d3d69d1ab700&quot;&gt;
+            &lt;annotation&gt;D1&lt;/annotation&gt;
+            &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+            &lt;description&gt;Discrete 1&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;2374e12a-ec4b-490f-999b-dbae19b4df6a&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;d16f47dd-739f-4a09-a67d-25b06ae0fd9b&quot;&gt;
+              &lt;period&gt;.02&lt;/period&gt;
+              &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;_task0&lt;/identifier&gt;
+          &lt;priority&gt;40&lt;/priority&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;58e7a2c2-9bca-459a-a345-4d5235236797&quot;&gt;
+      &lt;clientId&gt;NonTunableParameterChangeEvent&lt;/clientId&gt;
+      &lt;eventType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventType&gt;
+      &lt;cNum&gt;2&lt;/cNum&gt;
+      &lt;clockType&gt;Event&lt;/clockType&gt;
+      &lt;identifier&gt;NonTunableParameterChangeEvent&lt;/identifier&gt;
+      &lt;specifiedTaskingMode&gt;ExplicitTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;None&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;23b8353c-8570-4ca7-8574-0d78958a0d41&quot;/&gt;
+    &lt;/clocks&gt;
+    &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;352e06fe-1d93-4016-9a67-f7c750162f89&quot;&gt;
+      &lt;clientId&gt;ParameterChangeEvent&lt;/clientId&gt;
+      &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+      &lt;cNum&gt;1&lt;/cNum&gt;
+      &lt;clockType&gt;Event&lt;/clockType&gt;
+      &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+      &lt;specifiedTaskingMode&gt;ExplicitTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;None&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;8d25c30a-9396-4ad9-a314-bd173bbb36f9&quot;&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;3e6b7669-a5d5-417b-ac55-72a291659542&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;2c6eea29-8cc7-4728-8e09-8eee756e538e&quot;&gt;
+          &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;3e6b7669-a5d5-417b-ac55-72a291659542&quot;&gt;
+            &lt;eventSourceType&gt;PARAMETER_CHANGE_EVENT&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;-1&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;2374e12a-ec4b-490f-999b-dbae19b4df6a&quot;/&gt;
+            &lt;stringID&gt;ParameterChangeEvent&lt;/stringID&gt;
+            &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+            &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;544aba5f-2bdd-4e2e-9cea-380a7f9794f0&quot;&gt;
+              &lt;period&gt;Inf&lt;/period&gt;
+              &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;tNum&gt;1&lt;/tNum&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+          &lt;priority&gt;-1&lt;/priority&gt;
+          &lt;schedulingClockID&gt;ParameterChangeEvent&lt;/schedulingClockID&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;bcc45d5b-3fa4-4270-abc4-8ff17baed978&quot;&gt;
+      &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;a57f1df2-44c9-4e09-818c-8667d6ff217e&quot;&gt;
+      &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+      &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskingMode&gt;ClassicMultiTasking&lt;/taskingMode&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;48e6ec7b-55f9-4874-bec9-6c9c687d5c12&quot;/&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;2c6eea29-8cc7-4728-8e09-8eee756e538e&quot;/&gt;
+    &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <zeroInternalMemoryAtStartupUnchecked>true</zeroInternalMemoryAtStartupUnchecked>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="64e5a57c-fb4b-45e9-b95f-838bb0a7a4e6"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="83a2773c-2131-49f3-9097-84d0dc8c18d8"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="ca371fa1-0e98-4ca4-a649-c248a2f915d6">
+      <concurrentTaskSupport>true</concurrentTaskSupport>
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.02</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <optimizedInitCode>true</optimizedInitCode>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="a5680d32-c35e-41e6-8ae7-bd38d9595d93">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="bc7aff12-adfc-46a6-9f93-b7d9e37db060"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="6985190e-2fb5-4fa0-a4d6-e00e921f6a0f"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="abd7ba88-9f37-40c8-9608-f2c8b6fb4fe4">
+      <compDataInputPorts>0</compDataInputPorts>
+      <compDataInputPorts>1</compDataInputPorts>
+      <compDataInputPorts>2</compDataInputPorts>
+      <compDataInputPorts>3</compDataInputPorts>
+      <compDataInputPorts>4</compDataInputPorts>
+      <compDataOutputPorts>0</compDataOutputPorts>
+      <compDataOutputPorts>1</compDataOutputPorts>
+      <compDataOutputPorts>2</compDataOutputPorts>
+      <compDataOutputPorts>3</compDataOutputPorts>
+      <compDataOutputPorts>4</compDataOutputPorts>
+      <dataInputPorts>0</dataInputPorts>
+      <dataInputPorts>1</dataInputPorts>
+      <dataInputPorts>2</dataInputPorts>
+      <dataInputPorts>3</dataInputPorts>
+      <dataInputPorts>4</dataInputPorts>
+      <dataOutputPorts>0</dataOutputPorts>
+      <dataOutputPorts>1</dataOutputPorts>
+      <dataOutputPorts>2</dataOutputPorts>
+      <dataOutputPorts>3</dataOutputPorts>
+      <dataOutputPorts>4</dataOutputPorts>
+    </dataPortGroup>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="7fb9d81f-0d6d-4708-a9d2-75f655658773"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="6ae709a4-b759-48a3-b153-d3cb9b53d77e">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="97bd738a-872d-4bde-8141-57e66378eedf">
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_MotionDataLowPassFilter</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="bd3d49f5-1888-4aed-9540-4d18ebb2a66a">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>2</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_DM_DrvCrvtCalcWeightFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="3957c433-e9c4-466f-a027-591e79eaeae1">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>2</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_DM_DrvVLgtForCrvtTable</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="c79d9b8e-e047-4c5e-b005-4efcf17bec97">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_DM_LoPosValInDrvrStEstimr</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="dcf7052d-673c-49c6-b755-37842f2071df">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_DM_VehSelfMinSpdInDrvrStEstimr</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="69511250-7841-4653-afb1-631f0ed3c4f5">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_AccTarCfmDlyInTaSlection</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="7254196b-0629-47a4-9693-b21736e0fdf2">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_CallFrequencyInTaSlection</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="99dad2b2-fc07-40c7-ac4c-af1c07ea4659">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjAxLowPassFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="6af3401e-dbd2-43d3-8978-e11a52b227ae">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjAyLowPassFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="fe043254-36a2-49dc-a9bc-143f7cf2b1f8">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjBehaviorLatStationPara</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="dcbb08d2-7a47-4ace-a281-888a2199f061">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjBehaviorOnComingPara</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="45723586-cc29-440b-b908-943d022d774c">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjDistancebyVxandDxFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="8cb828fb-a657-4904-8303-af607fc45a7d">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjDistancebyVyandDyFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="f619cf50-fce5-4a60-ab06-ea378df27640">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjDxLowPassFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="92e2b222-7198-4e9f-9106-5e629b2ca83b">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjDxRateVarianceThredValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="aa3df237-0ae1-4aea-9710-17e64edc993c">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjDxSTDThredValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="8eb3a260-272a-4a94-8fb1-9e0e9acc9d57">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjDyLowPassFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="d53cf681-26dc-4736-a582-726505ebb45b">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjDyRateVarianceThredValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="aee5ee54-4b6b-4b3f-8857-48d38df47b79">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjDySTDThredValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="2aa6b096-8700-4689-ab70-52aa80a91d1c">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjHeadAngleDiffThred</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="98577c28-c146-4f96-9b98-e5f0186f22fb">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjHeadAngleLowPassFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="c2ac0a96-ccdf-460c-98fa-58e63e4ebb16">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjHeadAngleSTDThredValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="644d52ea-e8e7-48ac-a29e-b888304d5af4">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjMotorVehSpdThd</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="66613a6e-9d41-4ef5-8be0-574140b77b57">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjPedestrainSpdThd</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="9e007b7d-393c-4b20-9e43-1d4b061ee5d4">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjSpeedxbyVxandDxFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="7c254e4e-ad9f-4c9a-9fdc-0557acbc2253">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjSpeedybyVyandDyFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="4fcd0a23-d66d-41b1-b46e-c3750f37ca8d">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjTruckLengthPara</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="62525f21-a63e-45e0-bc25-cab966971795">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjVxLowPassFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="b397d501-b7be-405e-aa63-2b4990f4566e">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjVxSTDThredValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="facb814b-b6d2-41bd-a376-3f74ddd4291f">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjVxVarianceThredValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="b2a15594-3be3-497a-80df-fccad7630dd9">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjVyLowPassFactor</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="a91827d8-7365-447d-9e33-f84ba7829383">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjVySTDThredValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="c4425cda-4e36-4904-985f-1967947e95e6">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjVyVarianceThredValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="72919aca-e88b-4ed0-a151-f0cf2fc39aa4">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjdxRangetheMax</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="c53114ec-e290-428a-95d4-970e5b57183f">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjdxRangetheMin</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="203ffd9d-b1d0-4f7b-8ab0-ab83117e3757">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjdyRangetheMax</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="23dee095-402a-48c7-afa2-14d8e993c4df">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjdyRangetheMin</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="731e4a39-07fa-4ce2-9621-e46741819931">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PinionAgRateFilConInAsyEvlrCritEve</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="82bd7778-e3d2-400b-a27d-10f912ec427f">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForLaneWidthThred</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="bc938312-df61-442f-964c-7864da8ddfe2">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForLatObjLatSpdThred</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="5c518bb7-3eb7-4e78-8568-70d4ea03478c">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForMotorSpdThred</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="1d95722d-5071-47af-9587-78e3e59098cf">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForObjDisThrd</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="56003753-b060-491f-85a3-3ce0b5aacb79">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForObjSpdStationary</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="c48bc8d6-cccf-46cc-a098-b7bebe31ace1">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForOverlapLongThrd</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="3a1a9131-da26-4240-aa35-d5f4e402d5b3">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForTTCalDistanceOffset</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="469b119f-e657-4c58-bf72-f2e520e5040a">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehBicycleMdlAxleDistFrnt</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="0d4eab01-a6b6-4fb2-b706-899b0e32da10">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehBicycleMdlCornrgStfnFrnt</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="762b3969-9046-4b00-8cf7-05f790a09c5e">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehBicycleMdlCornrgStfnRe</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="bf521928-77d4-49ec-874b-c6e46c96f3cf">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehLongth</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="f134e7aa-0097-433e-92f7-64c30b55a203">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehRearAxleDisttoFrnt</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="76551014-722f-4ac1-832d-0d351e1e99a4">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehRearAxleDisttoRear</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="02093c66-432d-4bb9-be87-afd2fc61d6ac">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehSpdStationary</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="140d5a6d-956a-41a9-a6a1-d99fb48b758f">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehSteerWhlAgRat</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="7edef082-6419-4202-ad82-f05b8d8cde4a">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehWhlBase</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="564f31ee-2e91-4588-9acc-ca6c0047c768">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehWholeWeight</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="8be6576e-0153-45af-aacc-de089ce597d4">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForVehWidth</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="bf8e1165-128a-4ae0-8c34-e14a21960d84">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_SftyArUpprLimForTi</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="747df0ea-4f2e-49b5-9107-db02bd42bb08">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_TTILowerLimitNegative</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="2dedc178-5426-4d43-b509-81a9c4e11d27">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_TTIUpperLimiPositive</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="0e95a73e-5d5a-407b-9de2-2d60423ed3b2">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_TTIValidNumber</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="7cb400bf-3dbf-4bf8-9316-15a7d058bc21">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_TiLowrLimInAsyEvlrCritEve</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="57b240dd-991c-4999-8a8a-4b8f796ae17c">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_TiUpprLimInAsyEvlrCritEve</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="5ed0312b-875f-41b9-97fd-33943bd49500">
+        <datatypeID>1</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_TimegapThred</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="8b85fcb1-2c13-4d4f-a0cd-24cacdc038f4">
+        <datatypeID>8</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_AccTarCfmDlyEnadInTaSlection</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="e767a1d7-c31a-4ad2-b982-f66364abafd4">
+        <datatypeID>8</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjAccCalculateCalebration</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="b84edcfc-e9bd-4079-ab36-c5f2e209c06e">
+        <datatypeID>8</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_ObjAddAttrCalValue</parameterName>
+      </globalVariables>
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="2578af3c-d283-4466-ba22-799dd80fdddf">
+        <datatypeID>3</datatypeID>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+        <isUsed>true</isUsed>
+        <numDimensions>2</numDimensions>
+        <parameterName>P_TA_PrmForOverlapCalSelect</parameterName>
+      </globalVariables>
+    </interfaceParameterInfo>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="e0b2226d-63c6-4c44-98e4-e5d7868dca37"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="4cffbb16-164d-47ed-8787-e74dc3074856">
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasSystemResetMethod>true</hasSystemResetMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+      <hasUpdateMethod>true</hasUpdateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="d9ad5b8c-f64d-4226-a9c6-912fc2254965"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="2fee3d3f-beee-4369-a67b-a99e8e53ecd3">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="be68d4cc-e47a-4c96-a231-2c5877148b63"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="41315c53-6388-4ce1-ad61-e6b385abb196"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="1f6fcab1-7d69-4f35-9eac-bacfce2eee95"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="dcec21e9-d931-4c49-82d2-913ec7a94681"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="2d5a70c5-cbc0-49e6-b3a9-3f979a93b94b"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="bdf39ecd-ca77-4313-af8b-9a9e78a7760a">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="4c06c6e7-8a31-4832-99b5-aa640a000216">
+        <p_InputPorts type="ci.SignalInterface" uuid="3639c7bf-a2b5-4fbd-9501-9aab3554eee2">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>Extension_input_Bus</p_ComputedType>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="aad0cf38-85bb-4388-941e-53da4eedf025">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>ACC_Infout</p_ComputedType>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="0d34cf03-cfb9-4ec9-b534-80bf08d6d965">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>TA_ObjProInfo</p_ComputedType>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="5f89df58-cb22-4a3b-90ad-d4c09f58ab5b">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>Road_struct</p_ComputedType>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="1550f05a-2564-487d-a9db-e06ed0010e74">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>Objects_Struct</p_ComputedType>
+        </p_InputPorts>
+        <p_Name>AEBS_TOS</p_Name>
+        <p_OutputPorts type="ci.SignalInterface" uuid="68d4ca5c-f6b2-461f-a5b1-b31b4ff7e6fb">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>ObjLong_Bus</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="89bf235c-ea62-43ae-bbc8-2ae4fe36d05a">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>objLat_Bus</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="227dab2c-47ba-4028-859a-90c06ff02e8c">
+          <p_ComputedNumericDimensions>32.0</p_ComputedNumericDimensions>
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>single</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="d8a12d8c-38df-460d-a507-aa61d2d3f2d7">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>Objrebuild_Bus</p_ComputedType>
+        </p_OutputPorts>
+        <p_OutputPorts type="ci.SignalInterface" uuid="07fd12c3-cec2-49eb-909f-6d5dc55c5bd2">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.02</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>ObjectELK_Struct</p_ComputedType>
+        </p_OutputPorts>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="08915b29-de98-4454-b34f-188394f87a22">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="d7c810e3-7149-4db9-b4a9-aacfb53eefa1"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="250e9279-658c-453a-bb7c-efcada5670ba">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="c191e898-2ada-4d70-98e4-6a2c074ad183">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="a5e20ad7-fb4b-4529-a632-755a7c970aff">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="e312c92d-c6a0-4407-83ca-ecf66a5909ac">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="04f1790f-2e85-444b-a1e5-14eaebc9d76d"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="04f1790f-2e85-444b-a1e5-14eaebc9d76d">
+          <dataName>D1</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="e312c92d-c6a0-4407-83ca-ecf66a5909ac"/>
+          <id type="sto.TaskHierarchyElementId">
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="a3244cd2-b3a2-4337-b6dc-32249e8693d7"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>
